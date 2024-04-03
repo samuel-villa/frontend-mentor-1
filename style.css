@@ -24,6 +24,44 @@ body {
     font-family: "Public Sans", sans-serif;
 }
 
+/* For mobile phones: */
+@media screen and (max-width: 600px) {
+    .header__ul, .header__a__invite, .header__menu__close {
+      display: none;
+    }
+
+    header {
+        position: relative;
+        z-index: 3;
+    }
+
+    .banner__img__mockup {
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .banner__img__mockup > img {
+        position: absolute;
+        top: -155px;
+        width: 90%;
+    }
+
+    .banner__img__bg-mobile > img {
+        position: absolute;
+        top: -40px;
+        width: 120%
+    }
+  }
+
+
 header {
-    background-color: var(--bright-cyan);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+    padding: 25px;
 }
