@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Weights: 300, 400, 700 */
+
+/* 
+Mobile: 375px
+Desktop: 1440px 
+*/
+
+:root {
+    /* primary */
+    --dark-blue: hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+
+    /* neutral */
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-Gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+  }
+
+body {
+    font-size: 18px;
+    font-family: "Public Sans", sans-serif;
+}
+
+header {
+    background-color: var(--bright-cyan);
+}
